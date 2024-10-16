@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+nav{
+    font-size: larger;
+    color: black;
+    background-color: aqua;
+    display: flex;
+    gap: 10vw;
+}
+h1{
+    color: red;
+    border: 2px yellowgreen solid;
+    max-width: fit-content;
+}
+img{
+    border: 2px steelblue solid;
+    border-radius: 50px;
+    width: 50%;
+    display: block;
+}
+
+.positive{
+    background-color: green;
+}
+.negative{
+    background-color: red;
+}
